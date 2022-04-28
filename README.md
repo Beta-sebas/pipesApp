@@ -1,27 +1,37 @@
 # PipesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+Aplicación web creada con _Angular_ y _PrimeNg_, en la cual se desarrollan los Pipes que este frameWork trae incorparados, adicionalemnte se crean pipes personalizados para diferentes funciones. Para la UI de al app
+se utilizo la galeria de componentes de PrimeNG.
+ 
+Características de la aplicación
 
-## Development server
+* _Buenas practicas para el arbol del proyecto_
+* _Desarrollo Modular_
+* _Uso de interfaces_
+* _Pipes personalizados_
+* _Uso de PrimeNg_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Comenzando 🚀
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecuta `ng serve` en la ventana de comando para ejecutar el sevidor de desarrollo. Navega hacia `http://localhost:4200/`. La aplicación se actualizará automaticamente en el servidor si realizas cambios en los archivos.
+
+## Construido con 🛠️
+
+* [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+* [NodeJs](https://nodejs.org/es/) vesion 16.14
+* [PrimeNg](https://www.primefaces.org/primeng/) vesion 13.3.3
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Ejecuta `ng build` para desplegar la app. Que se guardará en el directorio `dist/`.
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## App Deploy 
+[PipeApp](https://beta-sebas.github.io/Bases_Angular/)
+## Autor ✒️
+
+* **Juan Sebastian Betancourt**  - [Beta-sebas](https://github.com/Beta-sebas)
+
