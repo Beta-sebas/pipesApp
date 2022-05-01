@@ -6,7 +6,6 @@ import { Color } from '../interfaces/ventas.interface';
 })
 export class ColorPipe implements PipeTransform {
     transform(value: Color) {
-        console.log(value);
         return Color[value]
     }
 }
