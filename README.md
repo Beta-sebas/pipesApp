@@ -30,7 +30,7 @@ Ejecuta `ng build` para desplegar la app. Que se guardará en el directorio `dis
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 ## App Deploy 
-[PipeApp](https://beta-sebas.github.io/Bases_Angular/)
+[PipeApp](https://beta-sebas.github.io/pipesApp/)
 ## Autor ✒️
 
 * **Juan Sebastian Betancourt**  - [Beta-sebas](https://github.com/Beta-sebas)
