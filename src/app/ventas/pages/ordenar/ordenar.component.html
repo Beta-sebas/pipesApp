@@ -8,17 +8,17 @@
             <p> Pipes propios</p>
         </div>
         
-        <div class="p-toolbar-group-right">
-            <p-button class="mr-1" (onClick)="toogle()" type="button" label="toggle mayúsculas" styleClass="p-button-help"></p-button>
-            <p-button class="mr-1" (onClick)="cambiarOrden('nombre')"icon="pi pi-sort" label="Por nombre"></p-button>
-            <p-button class="mr-1" (onClick)="cambiarOrden('vuela')"icon="pi pi-sort" label="Vuela" styleClass="p-button-success"></p-button>
-            <p-button class="mr-1" (onClick)="cambiarOrden('color')"icon="pi pi-sort" label="Por color" styleClass="p-button-warning"></p-button>
+        <div class="p-toolbar-group-right grid ">
+            <p-button class="mr-1 col-fixed" (onClick)="toogle()" type="button" label="toggle mayúsculas" styleClass="p-button-help"></p-button>
+            <p-button class="mr-1 col-fixed" (onClick)="cambiarOrden('nombre')"icon="pi pi-sort" label="Por nombre"></p-button>
+            <p-button class="mr-1 col-fixed" (onClick)="cambiarOrden('vuela')"icon="pi pi-sort" label="Vuela" styleClass="p-button-success"></p-button>
+            <p-button class="mr-1 col-fixed" (onClick)="cambiarOrden('color')"icon="pi pi-sort" label="Por color" styleClass="p-button-warning"></p-button>
         </div>
     </p-toolbar>
-
+    
     <div class="grid">
         <div class="col mt-2">
-            <p-table [value]='heroes | ordenar:ordenarPor'>
+            <p-table responsiveLayout="scroll" [value]='heroes | ordenar:ordenarPor'>
                 <ng-template pTemplate="header">
                     <tr>
                         <th>Nombre</th>
@@ -30,7 +30,7 @@
                     <tr>
                         <td>{{heroe.nombre | mayusculas:enMayusculas}}</td>
                         <td>{{heroe.vuela | vuela | titlecase}}</td>
-                        <td>{{heroe.color}}</td>
+                        <td>{{heroe.color | color}}</td>
                         
                     </tr>
                 </ng-template>
@@ -41,7 +41,7 @@
 
     <div class="grid">
         <div class="col mt-2">
-            <p-table [value]='heroes | slice:0'>
+            <p-table responsiveLayout="scroll" [value]='heroes | slice:0'>
                 <ng-template pTemplate="header">
                     <tr>
                         <th pSortableColumn="nombre">Nombre <p-sortIcon field="nombre"></p-sortIcon></th>
