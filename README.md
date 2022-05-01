@@ -10,6 +10,13 @@ Características de la aplicación
 * _Uso de interfaces_
 * _Pipes personalizados_
 * _Uso de PrimeNg_
+* _Primeflex_
+
+![PipesApp-20221_45_46](https://user-images.githubusercontent.com/80282099/166160928-5375b3cd-a27f-4dc0-8801-1a0ebc264e73.png)
+![PipesApp-5_1_2022 1_46_10](https://user-images.githubusercontent.com/80282099/166160983-59460944-acef-43ba-be6a-50ab3939a3a0.png)
+![PipesApp-1_2022 1_46_39 PM](https://user-images.githubusercontent.com/80282099/166161029-c452198e-e020-4e66-af9e-84182d24bfea.png)
+![PipesApp-5_1_2022 1_46_47 PM](https://user-images.githubusercontent.com/80282099/166161032-54a22080-0205-4381-9433-72989c1939fe.png)
+![PipesApp-5_1_2022 1_47_06 PM](https://user-images.githubusercontent.com/80282099/166161041-d9473b0e-b533-42c8-bc47-3ee7dfcb6d5d.png)
 
 
 ## Comenzando 🚀
